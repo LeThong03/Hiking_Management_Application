@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">M_Hiking6</string>
+
+    <string name="hint_name">Name of Hike</string>
+    <string name="hint_location">Location</string>
+    <string name="hint_date">Date of Hike</string>
+    <string name="hint_description">Description</string>
+    <string name="hint_parking">Parking available (Yes or No)</string>
+    <string name="hint_length">Length of Hike (e.g., 5 miles)</string>
+    <string name="button_save">Save</string>
+    <string name="button_update">Update</string>
+    <string name="button_delete">Delete</string>
+    <string name="difficulty_options">Change difficult</string>
+    <string-array name="difficulty_array">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </string-array>
+
+</resources>

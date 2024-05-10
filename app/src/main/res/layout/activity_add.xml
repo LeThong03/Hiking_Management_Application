@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AddActivity">
+
+    <!-- Name of Hike (Required) -->
+    <EditText
+        android:id="@+id/nameEdt"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="8dp"
+        android:hint="@string/hint_name"
+        android:inputType="text" />
+
+    <!-- Location (Required) -->
+    <EditText
+        android:id="@+id/locationEdt"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginBottom="8dp"
+        android:hint="@string/hint_location"
+        android:inputType="text" />
+
+    <!-- Date of Hike (Required) -->
+    <EditText
+        android:id="@+id/dateEdt"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginBottom="8dp"
+        android:hint="@string/hint_date"
+        android:inputType="date" />
+
+    <!-- Parking Available (Required, Radio Buttons) -->
+    <EditText
+        android:id="@+id/parkingEdt"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginBottom="8dp"
+        android:hint="@string/hint_parking"
+        android:inputType="text"/>
+
+    <!-- Length of Hike (Required) -->
+    <EditText
+        android:id="@+id/lengthEdt"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginBottom="8dp"
+        android:hint="@string/hint_length"
+        android:inputType="text" />
+
+    <!-- Level of Difficulty (Required, Spinner) -->
+    <Spinner
+        android:id="@+id/difficultySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Difficult"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Description (Optional) -->
+    <EditText
+        android:id="@+id/descriptionEdt"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/hint_description"
+        android:inputType="textMultiLine" />
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_save"
+        android:layout_gravity="center"/>
+</LinearLayout>
